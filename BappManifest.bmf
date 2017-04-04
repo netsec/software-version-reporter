@@ -3,7 +3,7 @@ ExtensionType: 1
 Name: Software Version Reporter
 RepoName: software-version-reporter
 ScreenVersion: 2.0.0
-SerialVersion: 8
+SerialVersion: 9
 MinPlatformVersion: 0
 ProOnly: True
 Author: August Detlefsen
