@@ -3,8 +3,10 @@ accounting.js v3.0.2.100
 Server: akka-http/2.4.9
 Alterian-CME/3.0.2.100
 "osVersion" : "4.1.13-19.31.amzn1.x86_64"
+Server: AOLserver/4.5.1
 Server: Apache/2.2.4 (Unix) mod_perl/2.0.3 Perl/v5.8.8
 Apache-Coyote/1.1
+<em>Powered by <a href="http://subversion.apache.org/">Apache Subversion</a> version 1.7.14 (r1542130).</em>
 Apache Tomcat/6.0.24 - Error report
 ARR/3.0.2.100
 ASP.NET Version:3.0.2.100
@@ -18,6 +20,7 @@ Handlebars.VERSION = "1.0.beta.6";
 Handlebars.VERSION="1.0.beta.6";
 IBM_HTTP_Server/3.0.2.100
 IWeb/3.0.2.100
+Server: Jetty(9.4.0.v20161208)
 JBoss-2.0.0.GA
 JBoss-EAP/7
 (build: CVSTag=JBoss_4_0_3 date=200510042324)
@@ -45,6 +48,7 @@ Microsoft-IIS/3.0.2.100
 Microsoft .NET Framework Version:3.0.2.100
 Microsoft .NET Framework 3.0.2.100
 MicrosoftSharePointTeamServices: 3.0.2.100
+mod_apreq2-20090110/2.8.0
 mod_jk/3.0.2.100
 mod_ssl/3.0.2.100
 mod_perl/3.0.2.100
@@ -53,8 +57,10 @@ var l={name:"mustache.js",version:"0.7.0",tags:["{{","}}"]}
 nginx/3.0.2.100
 nweb/3.0.2.100
 OpenCms/3.0.2.100
+Server: openresty/1.9.7.4
 Omniture DC/3.0.2.100
-OpenSSL/3.0.2.100
+OpenSSL/1.0.1e-fips
+OpenSSL/1.0.1s-freebsd
 OnlineOpinion v5.9.0
 Oracle Corporation 1.8.0_101
 Oracle-iPlanet-Web-Server/7.0.22
@@ -64,6 +70,7 @@ Orion/3.0.2.100
 Server: NSC/0.6.4 (JVM)
 Perl/v3.0.2.100
 PHP/3.0.2.100
+X-Powered-By: PHP/5.5.9-1ubuntu4.9
 X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 3.0.13
 var Prototype = {
 
@@ -73,7 +80,9 @@ Servlet 3.0.2.100
  * Sizzle CSS Selector Engine - v0.9.3
  * Sizzle CSS Selector Engine v2.3.4-pre
 /*! Sizzle v2.3.4-pre | (c) jQuery Foundation, Inc. | jquery.org/license */
+SOAPServer: SOAP::Lite/Perl/1.20
 Server: spray-can/1.3.3
+Via: 1.0 localhost (squid/3.1.20)
 Sun-Java-System-Web-Server/3.0.2.100
 Tomcat-3.0.2.100
 TornadoServer/3.0.2.100
