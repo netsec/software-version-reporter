@@ -15,16 +15,18 @@ BOA/([\d.]+)	1	BOA Web Server	Low	Certain
 CKEDITOR.*version:"([\d.]+)"	1	CKEditor	Information	Certain
 Ember\.VERSION\s*=\s*["']([\w.]+)["']	1	Ember	Information	Certain	2
 http://errors\.angularjs\.org/([\d.]+)/	1	AngularJS	Information	Certain
+h2o/([\d.]+(-DEV)?)	1	H2O	Low	Certain
 Hiawatha v([\d.]+)	1	Hiawatha	Low	Certain
 Handlebars\.VERSION\s*=\s*["']([\w.]+)["']	1	Handlebars.js	Information	Certain	2
 IBM_HTTP_Server/([\d.]+)	1	IBM HTTP Server	Low	Certain
 IWeb/([\d.]+)	1	360vision CCTV Web Server	Low	Certain
-Jetty\([v\d.]+\)	1	Jetty	Low	Certain
+Jetty\s?\(?([a-z\d.]+)\)?	1	Jetty	Low	Certain	2
 JBoss-([\d.]+(?:GA)?)	1	JBoss	Low	Certain
 JBoss-EAP/([\d.]+)	1	JBoss Enterprise Application Platform	Low	Certain		https://developers.redhat.com/products/eap/overview/
 JBoss_([\d_]+)	1	JBoss	Low	Certain
 JBPAPP_([\d_]+(?:GA)?)	1	JBoss	Low	Certain
-JBossWeb/([\d.]+(?:GA)?)	1	JBoss Webserver	Low	Certain
+JBoss\s?Web/([\d.]+(?:GA)?)	1	JBoss Webserver	Low	Certain	3
+jdk([x\d._]+)	1	Java JDK	Low	Certain
 Joomla! ([\d.]+)	1	Joomla!	Low	Certain
 JSF/([\d.]+)	1	Java Server Faces	Low	Certain
 JSP/([\d.]+)	1	Generic Java Servlet engine (possibly JBoss)	Low	Certain    
@@ -46,6 +48,7 @@ Microsoft \.NET Framework Version:([\d.]+)	1	Microsoft .Net Framework	Low	Certai
 Microsoft \.NET Framework ([\d.]+)	1	Microsoft .Net Framework	Low	Certain
 MicrosoftSharePointTeamServices: ([\d.]+)	1	Microsoft SharePoint	Low	Certain
 mod_apreq\d-([\d./]+)	1	Apache HTTP Request Library	Low	Certain
+mod_fastcgi/([\d.]+)	1	mod_fastcgi Apache 2 module	Low	Certain
 mod_jk/([\d.]+)	1	mod_jk	Low	Certain
 mod_ssl/([\d.]+)	1	mod_ssl	Low	Certain
 mod_perl/([\d.]+)	1	mod_perl	Low	Certain
@@ -68,6 +71,8 @@ Perl/v([\d.]+)	1	Perl	Low	Certain
 PHP/([\d.]+(?:[-\w\d\.]+)?)	1	PHP	Low	Certain	2
 Phusion Passenger(?: \([a-zA-Z_/]+\))? ([\d.]+)	1	Phusion Passenger	Low	Certain
 Prototype\s*=\s*\{\s*Version:\s*["']([\d.]+)["']	1	Prototype	Information	Certain
+RestServices(>|":\s*")([\d.]+)	2	Mendix RestServices	Low	Certain	2
+>Roxen CMS<[\S\s]*?\|[\s\S]*?version ([\d.]+)	1	Roxen CMS	Low	Certain	2
 Ruby/([\d.]+(?:/\d{4}-\d{2}-\d{2})?)	1	Ruby	Low	Certain
 Servlet[ /]([\d.]+)	1	Generic Java Servlet engine (possibly JBoss)	Low	Certain
 Sitefinity(\.Resources(,|%2c)( |\+|%20)Version(=|%3d))?\s*([\d.]+)	5	Sitefinity CMS	Low	Certain	3
@@ -81,6 +86,7 @@ TornadoServer/([\d.]+)	1	Tornado Server	Low	Certain
 Underscore\.js ([\d.]+)	1	Underscore.js	Information	Certain
 X-Powered-By: Undertow/([\d.]+)	1	Undertow	Low	Certain		http://undertow.io/
 var APPLICATION_FULL_VERSION = '([\d.]+)';	1	Microsoft CRM	Information	Certain
+Varnish/([\d.]+)	1	Varnish Cache	Low	Certain
 "version":"([a-z0-9\.\+]+)"	1	Generic	Information	Firm
 WEBrick/([\d.]+)	1	WEBrick	Low	Certain
 WebSockify Python/([\d.]+)	1	Python (Websockify)	Low	Certain
