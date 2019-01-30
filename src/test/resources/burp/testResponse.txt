@@ -9,10 +9,16 @@ Apache-Coyote/1.1
 <em>Powered by <a href="http://subversion.apache.org/">Apache Subversion</a> version 1.7.14 (r1542130).</em>
 Apache Tomcat/6.0.24 - Error report
 ARR/3.0.2.100
+Server:Artifactory/5.4.6
+<hr/><address style="font-size:small;">Artifactory/5.4.6 Server at my.internal.tld.net/(null) Port 80</address></body></html>
 ASP.NET Version:3.0.2.100
 Server: awselb/2.0
-BOA/3.0.2.100
+BOA/345.0.2.100
+Server: Boa/0.94.14rc21
+Server: Cherokee/1.2.104 (UNIX)
+Cherokee/1.2.2b6397
 CKEDITOR=function(){var a=/(^|.*[\\\/])ckeditor\.js(?:\?.*|;.*)?$/i,d={timestamp:"G14E",version:"4.5.7"
+Communique/4.2.0-20160330
 Ember.VERSION = '1.0.pre';
 Ember.VERSION='1.0.pre';
 http://errors.angularjs.org/3.0.2.100/
@@ -32,7 +38,7 @@ JBossWeb/2.0.0.GA_CP16_JBPAPP_10368 - Error report
 <h3>JBoss Web/7.4.10.Final-redhat-1</h3>
 JavaVersion=/home/build/autobuild/client/tools/Linux/jdk/jdk1.8.0_131_x64
 Joomla! 3.0.2.100
-JSF/3.0.2.100
+X-Powered-By:JSF/1.2
 JSP/3.0.2.100
 jQuery JavaScript Library v3.0.2.100
 jQuery UI 1.7.2
@@ -90,7 +96,7 @@ var Prototype = {
 version 5.0.449 </td>
 </tr>
 Ruby/3.2/2010-11-12
-Servlet 3.0.2.100
+X-Powered-By: Servlet 2.5; JBoss-5.0/JBossWeb-2.1
 <meta name="Generator" content="Sitefinity 8.0.5700.0 PE" />
 <link href="/Telerik.Web.UI.WebResource.axd?d=db0VBNCGqiCBC3Vgke_pPFchlOHtWXWZy5yiIL7Xkw4BKD4t0egHi-CSQGlanoHiwNHz42KiKocVdBEET-qqRKf7mRxdch7uo9JWF6hDykNfKCdduw1nCwUiwqEWEwuKQ2&amp;t=63524329720342&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d8.0.5700.0
   | hf.value += ';Telerik.Sitefinity.Resources, Version=8.0.5700.0, Culture=neutral, PublicKeyToken=b28c218413bd3:en:da474b-bbb5-4a2a-9b18-29b468be39f7:7a90d6a:d271177c:dff30785';
@@ -101,13 +107,17 @@ SOAPServer: SOAP::Lite/Perl/1.20
 Server: spray-can/1.3.3
 Via: 1.0 localhost (squid/3.1.20)
 Sun-Java-System-Web-Server/3.0.2.100
+<!-- 2018.1.117.40 -->   # Telerik
+<!-- 2011.1.315.35 -->   # Telerik
 Tomcat-3.0.2.100
 TornadoServer/3.0.2.100
 Underscore.js 3.0.2.100
 X-Powered-By: Undertow/1  
 var APPLICATION_FULL_VERSION = '1.2.3.4';
 via: 1.1 varnish (Varnish/5.2)
+Via: 1.1 vegur
 "version":"2.2.2+691b4b7"
+"version": "2.55.0.364"
 WEBrick/3.0.2.100
 Server: WebSockify Python/1.2.3
 WebSphere Application Server/3.0.2.100
